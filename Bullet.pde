@@ -5,10 +5,19 @@ class Bullet extends Floater{
     myXspeed = sally.getXspeed();
     myYspeed = sally.getYspeed();
     myPointDirection = sally.getPointDirection();
+     if (Math.random() > 0.5)
+    {
+      myColor= color(0, 255, 0);
+    }
+    else
+    {
+      myColor = color(0, 0, 255);
+    }
     accelerate(6);
   }
   public void show(){
-    myColor = color(192);
+    fill(myColor);
+    stroke(myColor);
     ellipse((float)myCenterX, (float)myCenterY, 10, 10);
   }
   public double getX(){
