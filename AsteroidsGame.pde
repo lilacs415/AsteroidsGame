@@ -55,11 +55,11 @@ public void keyPressed()
 {
   if (key == 'a')
   {
-    sally.turn(-5);
+    sally.turn(-10);
   }
   else if (key == 'd')
   {
-    sally.turn(5);
+    sally.turn(10);
   }
   else if (key == 'w')
   {
