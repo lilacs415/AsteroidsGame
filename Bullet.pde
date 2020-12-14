@@ -18,7 +18,7 @@ class Bullet extends Floater{
   public void show(){
     fill(myColor);
     stroke(myColor);
-    ellipse((float)myCenterX, (float)myCenterY, 10, 10);
+    ellipse((float)myCenterX, (float)myCenterY, 5, 5);
   }
   public double getX(){
       return myCenterX;
